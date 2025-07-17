@@ -5,7 +5,7 @@ function TaskCard({ title, description, image }) {
 
   return (
     <div
-      className={`group bg-[#111] text-white rounded-lg overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105 w-full sm:w-[300px] flex flex-col cursor-pointer`}
+      className={`group bg-[#111] text-white rounded-lg overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105 w-full sm:w-[300px] flex flex-col cursor-pointer hover:shadow-blue-500/80`}
       onClick={() => setExpanded(!expanded)}
     >
       <img
