@@ -2,8 +2,8 @@ import MemberCard from '../components/MemberCard'
 
 function Team() {
   return (
-    <div className="min-h-screen ml-20 md:ml-64 bg-[#0a0a0a] text-white p-6">
-      <h2 className="text-3xl font-bold mb-6 text-center text-blue-400">Meet the Team</h2>
+    <div className="min-h-screen ml-20 md:ml-64 bg-[#0a0a0a] text-white p-6 ">
+      <h2 className="text-3xl font-bold mb-6 text-center text-blue-400 " >Meet the Team</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
        
         <MemberCard
