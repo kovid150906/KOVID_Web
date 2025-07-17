@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         aerove: "#0a0a0a"
       }
+      
     }
   },
   plugins: []

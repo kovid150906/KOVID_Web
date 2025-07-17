@@ -11,7 +11,8 @@ function Home() {
       >
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-8 max-w-4xl mx-auto">
           <div className="mt-20 sm:mt-24 md:mt-32">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-blue-400">Team AeRoVe</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-blue-400 tracking-wide  drop-shadow-[0_5px_15px_rgba(59,130,246,0.8)]
+">Team AeRoVe</h1>
             <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-8">
               “A drone is often preferred for missions that are too ‘dull, dirty, or dangerous’ for manned aircraft.”<br /><br />
               Team AeRoVe of UMIC is on a never-ending pursuit of developing an ultimate system of autonomous fixed-wing as well as multirotor aircraft. Incorporating different subsystems — Mechatronics, Controls, Machine Learning, Perception, Path Planning, and Localisation — the team emphatically covers every aspect to forge a robust system of autonomous aerial vehicles.

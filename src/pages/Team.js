@@ -3,7 +3,8 @@ import MemberCard from '../components/MemberCard'
 function Team() {
   return (
     <div className="min-h-screen ml-20 md:ml-64 bg-[#0a0a0a] text-white p-6 ">
-      <h2 className="text-3xl font-bold mb-6 text-center text-blue-400 " >Meet the Team</h2>
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-center text-blue-400 tracking-wide drop-shadow-[0_3px_1px_rgba(0,0,0,0.7)] drop-shadow-[0_5px_15px_rgba(59,130,246,0.8)]"
+ >Meet the Team</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
        
         <MemberCard

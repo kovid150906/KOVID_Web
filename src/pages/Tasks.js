@@ -66,7 +66,7 @@ function Tasks() {
 
   return (
     <div className="min-h-screen ml-16 md:ml-64 bg-[#0a0a0a] text-white px-4 sm:px-6 md:px-8 py-8 space-y-12">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-blue-400">Mission Tasks</h2>
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center text-blue-400 tracking-wide  drop-shadow-[0_5px_15px_rgba(59,130,246,0.8)]">Mission Tasks</h2>
       <Section title="Completed" data={completed} />
       <Section title="To Do" data={todo} />
       <Section title="In Progress" data={inProgress} />
@@ -77,7 +77,7 @@ function Tasks() {
 function Section({ title, data }) {
   return (
     <div>
-      <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-blue-400 text-center">{title}</h3>
+      <h3 className="text-2xl sm:text-3xl font-extrabold mb-4 text-blue-400 text-center tracking-wide  drop-shadow-[0_5px_15px_rgba(59,130,246,0.8)]">{title}</h3>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
         {data.map((task, index) => (
           <TaskCard
