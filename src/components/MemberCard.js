@@ -1,10 +1,10 @@
 import { FaLinkedin, FaInstagram } from 'react-icons/fa'
 
-function MemberCard({ name, role, institute, linkedin, instagram, fact }) {
+function MemberCard({ name, role, institute, linkedin, instagram, fact, image }) {
   return (
     <div className="w-full max-w-xs bg-[#111] rounded-lg overflow-hidden shadow-md text-white text-center transform transition-transform duration-300 hover:scale-105">
       <img
-        src="/assets/team/member_placeholder.png"
+        src={`/assets/team/${image || 'member_placeholder.png'}`}
         alt={name}
         className="w-full h-64 object-cover"
       />
